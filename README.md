@@ -36,7 +36,7 @@ numpy == 1.19.2
 matplotlib == 3.6.0
 scikit-learn == 1.2.2
 ```
-__To run the code__
+__To run the codes__
 ```bash img-pro.sh``` for image pre-processing 
 ```bash build.sh``` for modifying the pre-trained model
 ```bash train.sh``` for training the modified model
