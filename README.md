@@ -22,7 +22,7 @@ The codes for this project can be splitted into four parts:
 3. Training the modified model
 4. Making predictions using the trained model
 
-These codes are written in juoyter notebook (.ipynb) format, which is the recommended format for code execution. 
+These codes are written in jupyter notebook (.ipynb) format, which is the recommended format for code execution. 
 The codes are also exported into python (.py) format for those who prefer raw python scripts. Each python file has a corresponidng shell (.sh) script for execution. 
 
 ### Usage
