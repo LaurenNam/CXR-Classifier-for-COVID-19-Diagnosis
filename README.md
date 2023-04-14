@@ -33,7 +33,7 @@ tensorflow == 2.4.0
 python == 3.8.2
 numpy == 1.19.2 
 matplotlib == 3.6.0
-scikit-learn 1.2.2
+scikit-learn == 1.2.2
 ```
 __To run the code__
 ```bash img-pro.sh``` for image pre-processing 
