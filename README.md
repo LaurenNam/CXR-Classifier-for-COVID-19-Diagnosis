@@ -25,7 +25,7 @@ These codes are written in juoyter notebook (.ipynb) format, which is the recomm
 The codes are also exported into python (.py) format for those who prefer raw python scripts. Each python file has a corresponidng shell (.sh) script for execution. 
 
 ### Usage
-__pre-requisites__
+__Pre-requisites__
 All codes are written in python.Below are the pre-requisites for running the python scripts for modifying, training, and testing the model. 
 ```
 CUDA 11.1
