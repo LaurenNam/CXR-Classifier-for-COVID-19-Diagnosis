@@ -21,10 +21,10 @@ Public datasets from various sources are used for fine-tuning the model.
 
 ### Code implementation
 The codes for this project can be splitted into four parts:
-1. Image pre-processing ```'img-pro.ipynb'```
-2. Modifying a pre-trained model ```'build.ipynb'```
-3. Training the modified model ```'train.ipynb'```
-4. Making predictions using the trained model ```'test.ipynb'```
+1. Image pre-processing ```img-pro.ipynb```
+2. Modifying a pre-trained model ```build.ipynb```
+3. Training the modified model ```train.ipynb```
+4. Making predictions using the trained model ```test.ipynb```
 
 These codes are written in jupyter notebook (.ipynb) format, which is the recommended format for code execution. 
 The codes are also exported into python (.py) format for those who prefer raw python scripts. A shell file ```exe.sh``` is used for code execution. 
@@ -50,7 +50,7 @@ scikit-learn == 1.2.2
 ```
 
 __To run the codes__
-Type command ```bash exe.sh ``` in the console for all four steps of the project. You may disable any of the steps by adding # before its respective command line. 
+Type command ```bash exe.sh``` in the console for all four steps of the project. You may disable any of the steps by adding # before its respective command line. 
 
 
 
@@ -63,7 +63,7 @@ Below provvides 9 models for running the codes. You may access all models via ht
 
 
 ### Available datasets
-Below provides a set of training and validation data for training a model in the default setting. Two sets of testing data are providied for making predictions. You may access to the datasets via ![alt text](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wktsuiac_connect_ust_hk/EgmlqxlInN9Er7zJC69v1mIBCE5nJSO181OrjvWxoUi9Ow?e=ymC6VE).
+Below provides a set of training and validation data for training a model in the default setting. Two sets of testing data are providied for making predictions. You may access to the datasets via https://hkustconnect-my.sharepoint.com/:f:/g/personal/wktsuiac_connect_ust_hk/EgmlqxlInN9Er7zJC69v1mIBCE5nJSO181OrjvWxoUi9Ow?e=ymC6VE.
 
 - __Training data__ A set of training data of 1,250 CXR images is provided in ```train_raw/```
 - __Validation data__ A set of training data of 150 CXR images is provided in ```train_raw/```
