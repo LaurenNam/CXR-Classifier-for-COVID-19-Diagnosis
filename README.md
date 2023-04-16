@@ -18,10 +18,10 @@ Public datasets from various sources are used for fine-tuning the model.
 
 ### Code implementation
 The codes for this project can be splitted into four parts:
-1. Image pre-processing ('img-pro.ipynb')
-2. Modifying a pre-trained model ('build.ipynb')
-3. Training the modified model ('train.ipynb')
-4. Making predictions using the trained model ('test.ipynb')
+1. Image pre-processing ```'img-pro.ipynb'```
+2. Modifying a pre-trained model ```'build.ipynb'```
+3. Training the modified model ```'train.ipynb'```
+4. Making predictions using the trained model ```'test.ipynb'```
 
 These codes are written in jupyter notebook (.ipynb) format, which is the recommended format for code execution. 
 The codes are also exported into python (.py) format for those who prefer raw python scripts. Each python file has a corresponidng shell (.sh) script for execution. 
