@@ -16,8 +16,11 @@ import numpy as np
 
 # %%
 # change the directory of the input folder and output folder
-input_dir = 'new_test/non-covid'
-output_dir = 'new_test_pro/non-covid'
+# you may use the provided raw data to create a set of training and validation data
+# training data -- 'train_raw/covid' and 'train_raw/non-covid' 
+# validation data -- 'valid_raw/covid' and 'valid_raw/non-covid'
+input_dir = 'train_raw/non-covid'
+output_dir = 'train_pro/non-covid'
 
 # create a new directory for the output folder if it is not yet created
 os.makedirs(output_dir, exist_ok=True)
