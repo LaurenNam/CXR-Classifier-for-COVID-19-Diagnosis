@@ -34,9 +34,10 @@ import itertools
 
 # %%
 # load the model you want to tested 
+# by default, model_2 is loaded
 # the model is saved as test_model
 from tensorflow.keras.models import load_model
-test_model = load_model('model_7/save_model/model_7.h5')
+test_model = load_model('fine-tuned_models/model_2.h5')
 print("A model is loaded.")
 # test_model.summary()
 
@@ -45,8 +46,9 @@ print("A model is loaded.")
 
 # %%
 # load the testing data
-test_path = 'test_pro'
-print("The testing set was loaded")
+# by default, test_pro_1 is loaded
+test_path = 'test_pro_1'
+print("The testing set is loaded")
 # %%
 # create batches of testing sets
 test_batches = ImageDataGenerator().flow_from_directory(test_path, target_size = (224,224), classes= ['covid', 'non-covid'], batch_size = 10, shuffle = False)
