@@ -14,7 +14,7 @@ Public datasets from various sources are used for fine-tuning the model.
 2. [Chest X-Ray Images] (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 3. [Figure 1 COVID-19 Chest X-ray Dataset Initiative] (https://github.com/agchung/Figure1-COVID-chestxray-dataset)
 4. [COVID-19 Radiography Database] (https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database?select=COVID-19_Radiography_Dataset)
-
+Twt sets of testing data ```test_1``` and ``test_2``` are provided.
 
 ### Code implementation
 The codes for this project can be splitted into four parts:
