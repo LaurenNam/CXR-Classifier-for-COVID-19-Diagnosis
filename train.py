@@ -49,8 +49,8 @@ print("The modified VGG16 model is loaded.")
 
 # %%
 # load data (the processed images) from the respective directories
-train_path = 'model_1/data_pro/train_pro'
-valid_path = 'model_1/data_pro/valid_pro'
+train_path = 'train_pro'
+valid_path = 'valid_pro'
 print("The tranining data are loaded.")
 
 # %%
@@ -102,7 +102,7 @@ CUDA_VISIBLE_DEVICES=2
 # the no. of epoch is 50 by default
 # the verbosity is 2 (super-verbose) by default
 # details of training are stored in a variable called history
-history = train_model.fit(x = train_batches, validation_data = valid_batches, epochs = 1, verbose = 2)
+history = train_model.fit(x = train_batches, validation_data = valid_batches, epochs = 50, verbose = 2)
 
 # %% [markdown]
 # __5. Plot the training accuracy and loss function__
@@ -138,7 +138,7 @@ plt.show()
 # %%
 # save the fine-tuned model after training
 # the architecture, weights, training configuration will be saved
-if os.path.isfile('model_train/save_model/model_train.h5') is False:
-    train_model.save('model_train/save_model/model_train.h5')
+if os.path.isfile('fine-tuned_models/model_trained.h5') is False:
+    train_model.save('fine-tuned models/model_trained.h5')
 
 
