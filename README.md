@@ -50,5 +50,5 @@ Type command ```bash exe.sh ``` in the console for all four steps of the project
 
 
 ### Models
-- 2 modified VGG16 models are uploaded to 'modfied_models/', one for tranditional learning one for transfer learning. Details of the modifed model are written in the script for 2. Modifying a pre-trained model. 
-- 7 fine-tuned VGG16 models trained at different training strategies are uploaded to 'fine-tuned_models/' for testing. Model 2 and 7 are the default model and optimal model for the project respectively. 
+- 2 modified VGG16 models are uploaded to ```'modfied_models/'```, one for tranditional learning one for transfer learning. Details of the modifed model are written in the script for 2. Modifying a pre-trained model. 
+- 7 fine-tuned VGG16 models trained at different training strategies are uploaded to ```'fine-tuned_models/'``` for testing. Model 2 and 7 are the default model and optimal model for the project respectively. 
