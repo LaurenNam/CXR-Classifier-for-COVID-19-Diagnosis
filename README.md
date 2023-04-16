@@ -14,7 +14,7 @@ Public datasets from various sources are used for fine-tuning the model.
 2. [Chest X-Ray Images] (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 3. [Figure 1 COVID-19 Chest X-ray Dataset Initiative] (https://github.com/agchung/Figure1-COVID-chestxray-dataset)
 4. [COVID-19 Radiography Database] (https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database?select=COVID-19_Radiography_Dataset)
-Twt sets of testing data ```test_1``` and ``test_2``` are provided.
+
 
 ### Code implementation
 The codes for this project can be splitted into four parts:
@@ -50,5 +50,5 @@ Type command ```bash exe.sh ``` in the console for all four steps of the project
 
 
 ### Models
-- 2 modified VGG16 models are uploaded to ```'modfied_models/'```, one for tranditional learning one for transfer learning. Details of the modifed model are written in the script for 2. Modifying a pre-trained model. 
-- 7 fine-tuned VGG16 models trained at different training strategies are uploaded to ```'fine-tuned_models/'``` for testing. Model 2 and 7 are the default model and optimal model for the project respectively. 
+- __Modified VGG16 models__ 2 modified VGG16 models were built and available for fine-tuning by transfer learning, or direct traditional learning. You may access to the models in ```modified_models/``` via https://hkustconnect-my.sharepoint.com/:f:/g/personal/wktsuiac_connect_ust_hk/EpQYCWOZ0ZZFnnhs8XV0SUcBkPd9WFzI74TSe6rO0GwC4w?e=vpdgNI
+- __Fine-tunned VGG16 models__ 7 fine-tuned VGG16 models trained at different training strategies are available for testing. Model 2 and 7 are the default model and optimal model for the project respectively. You may access to the models in ```fine-tuned_models/``` via https://hkustconnect-my.sharepoint.com/:f:/g/personal/wktsuiac_connect_ust_hk/EvRpj3o6FXNKof-yYQE7x6wB6-dP-req529lGDELFiTKpQ?e=aDbYhP
