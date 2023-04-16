@@ -119,8 +119,8 @@ model.summary()
 # save the modified after training
 # the architecture, weights, training configuration will be saved
 import os.path
-if os.path.isfile('modified_models/model_build.h5') is False:
-    model.save('modified_models/model_build.h5')
+if os.path.isfile('modified_models/model_name.h5') is False:
+    model.save('modified_models/model_name.h5')
 print("The modified VGG16 model is saved.")
 # two models are modified and stored in modifed_models
 # modified_models/model_tl.h5 <--- all parameters before the final layer are non-trainable
