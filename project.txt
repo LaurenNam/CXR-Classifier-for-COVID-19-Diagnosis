@@ -1,0 +1,16 @@
+COMP6211H Final Project
+
+This project aims to train a model for CRX classiciation for COVID-19 diagnosis
+
+# please use environment -co
+
+# version control
+# CUDA 11.1
+
+
+# packages installed
+# tensorflow 2.4.0 
+# python 3.8.2
+# numpy 1.19.2 <--SciPy requires Numpy version >=1.19.5
+# matplotlib 3.6.0
+# scikit-learn 1.2.2
