@@ -1,4 +1,4 @@
-# CXR Classifier for COVID-19
+# CXR Classifier for COVID-19 Diagnosis
 
 ### Objective
 This project aims to train a model for classifying chest X-ray (CXR) images of patients into two classes, which are 'covid' and 'non-covid'. The first class refers to CXR images of COVID-19 pneumonia patients, whereas the second class includes CXR images of both non-COVID-19 pneumonia patients and healthy individuals. 
